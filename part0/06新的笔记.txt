@@ -1,0 +1,10 @@
+
+Note over browser
+Browser executes the submit event handler
+Push note to the notes list
+Redraw the DOM tree
+Post note data to server
+End note
+
+Browser --> server:  https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+Server  --> browser: {"message":"note created"}
