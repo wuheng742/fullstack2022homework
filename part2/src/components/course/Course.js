@@ -1,12 +1,15 @@
+import { useState } from "react"
 
 
 
 const Part = ({name, exercises}) => {
 
+
     return (
         <div>
             <span>{name}</span>
             <span>{' ' + exercises}</span>
+
         </div>
     )
 }
@@ -89,7 +92,6 @@ const CourseApp = () => {
           ]
         }
       ]
-
 
     return (
         <>
